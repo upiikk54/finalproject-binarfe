@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom/client';
+import { render } from "react-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,8 +18,8 @@ import DetailProduct from "./pages/DetailProduct";
 import SellerProductPenawar from "./pages/SellerProductPenawar";
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const root = document.getElementById("root");
+render(
   <Provider store={store}>
   <Router>
     <Routes>
@@ -36,5 +36,6 @@ root.render(
       <Route path="/sellerproductpenawar/:id" element={<SellerProductPenawar />} />
     </Routes>
   </Router>
-  </Provider>
+  </Provider>,
+  root
 );
