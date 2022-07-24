@@ -1,0 +1,290 @@
+.btnPurpleLg {
+    width: 100%;
+    background-color:#7126B5;
+    border-radius: 16px;
+    border-color: #7126B5;
+    color: #fff;
+  }
+  
+  .btnPurpleLg:hover  {
+    background-color: #A06ECE;
+    border-color: #A06ECE;
+    color: #fff;
+  }
+  
+  .btnPurpleLg:active:focus {
+    background-color: #4B1979;
+    border-color: #4B1979;
+    color: #fff;
+  }
+  
+  /* Button Medium */
+  
+  
+  
+  /* Button Small */
+  
+  .btnPurpleSm {
+    width: 24%;
+    background-color:#7126B5;
+    border-radius: 16px;
+    border-color: #7126B5;
+    color: #fff;
+    margin-left: 1%;
+  }
+  
+  .btnPurpleSm:hover  {
+    background-color: #A06ECE;
+    border-color: #A06ECE;
+    color: #fff;
+  }
+  
+  .btnPurpleSm:active:focus {
+    background-color: #4B1979;
+    border-color: #4B1979;
+    color: #fff;
+  }
+  
+  .btnSecondarySm {
+    width: 24%;
+    background-color:#fff;
+    border-radius: 16px;
+    border-color: #7126B5;
+    color: #7126B5;
+    margin-left: 1%;
+  }
+  
+  .btnSecondarySm:hover  {
+    background-color: #A06ECE;
+    border-color: #7126B5;
+    color: #fff;
+  }
+  
+  .btnSecondarySm:active:focus {
+    background-color:  #7126B5;
+    border-color:  #7126B5;
+    color: #fff;
+  }
+  /* Masuk */
+  .btnPurple {
+    background-color: #7126b5;
+    border-radius: 12px;
+    border-color: #7126b5;
+    color: #ffff;
+    height: 48px;
+  }
+  
+  .btnPurple:hover {
+    background-color: #A06ECE;
+    border-color: #A06ECE;
+    color: #fff;
+  }
+
+  .btnPurple2 {
+    background-color: #7126b5;
+    border-radius: 12px;
+    border-color: #7126b5;
+    color: #ffff;
+    height: 48px;
+  }
+  
+  .btnPurple:hover2 {
+    background-color: #A06ECE;
+    border-color: #A06ECE;
+    color: #fff;
+  }
+  
+  
+  /* Link as Button */
+  .btnLinkPurp {
+    color:#7126B5;
+  }
+  
+  .btnLinkPurp:hover {
+    color:#A06ECE;
+  }
+  
+  .btnLinkPurp:active:focus {
+    color: #4B1979;
+  }
+  
+  
+    .textShadowBox {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+      position: relative;
+      /* text-align: center; */
+
+    }
+
+    .flex-container2 {
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+      /* text-align: center; */
+
+    }
+
+    .desc {
+      float: left;
+      width: 50%;
+    }
+
+    .left{
+      float: left;
+    }
+
+    .right {
+      float: right;
+      right: 90%;
+    }
+
+    .carousel {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    .arrow2{
+position: relative;
+      top: 0%;
+      left: 0%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 3px;
+      line-height: 1.428571429;
+      border-radius: 15px;
+      
+      /* display: none; */
+
+    }
+    
+
+
+    @media (max-width: 1023px) {
+      .flex-container {
+        flex-direction: column;
+      }
+      .flex-container2 {
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: space-between;
+      }
+      .desc {
+        width: 100%;
+        
+      }
+
+      .top-20 {
+        margin-top: 20px;
+        justify-content: center;
+        
+
+      }
+        
+    .textShadowBox {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+ 
+      /* justify-content: center; */
+    }
+
+    .textShadowBox2 {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+ 
+      /* justify-content: center; */
+    }
+
+    .btnPurpleLg {
+      float: right;
+      width: 83%;
+      margin-right: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      height:625px;
+      overflow:auto;
+      width: 100%;
+      background-color:#7126B5;
+      border-radius: 16px;
+      border-color: #7126B5;
+      color: #fff;
+    }
+    
+    .btnPurpleLg:hover  {
+      background-color: #A06ECE;
+      border-color: #A06ECE;
+      color: #fff;
+    }
+    
+    .btnPurpleLg:active:focus {
+      background-color: #4B1979;
+      border-color: #4B1979;
+      color: #fff;
+    }
+
+
+    .btnPurple {
+      background-color: #7126b5;
+      border-radius: 12px;
+      border-color: #7126b5;
+      color: #ffff;
+      height: 48px;
+      position: fixed;
+      width: 80%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1030;
+    }
+
+    .btnPurple2 {
+      background-color: #7126b5;
+      border-radius: 12px;
+      border-color: #7126b5;
+      color: #ffff;
+      height: 48px;
+      display: none;
+    }
+
+    .textShadowBox2 {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+    }
+
+    .arrow2{
+      position: absolute;
+      top: 10%;
+      left: 30%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 12px;
+      line-height: 1.428571429;
+      border-radius: 15px;
+      background-color: rgb(255, 255, 255);
+      color: white;
+      }
+
+      .navbar1 {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+      }
+
+      .navbarDetail {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        display: none;
+      }
+    
+    }

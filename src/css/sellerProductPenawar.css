@@ -1,0 +1,347 @@
+/* navbar */
+.na1-seller-product-penawar {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+.na2-seller-product-penawar{
+	margin-left: 160px;
+}
+
+.nav-seller-product-penawar{
+	margin-left: 160px;
+}
+
+.info-seller-product-penawar{
+	margin-left: 315px;
+	font-weight: bold;
+}
+
+.penawar-text-nav {
+	font-size: 20px;
+}
+
+/* Container Arrow*/
+.arrow2-seller-product-penawar{
+	color: black;
+	font-size: 25px;
+	margin-left: -100px;
+}
+
+/* card-seller-product-penawar */
+.card-seller-product-penawar{
+    border-radius: 16px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+}
+
+.nama-seller-product-penawar {
+    margin: 15px;
+}
+
+.card-seller-product-penawar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 10px;
+    
+}
+.nama-seller-product-penawar{
+    margin-left:70px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-kota-seller-product-penawar{
+    margin-left:70px;
+    font-size: 10px;
+    color: #8A8A8A;
+}
+/* card-seller-product-penawar */
+
+/* Daftar Produk yang di tawar */
+.card2-seller-product-penawar{
+    border-radius: 16px;
+    display: flex;
+	border: 1px ;
+	margin-right: 100px;
+}
+.card2-kota-seller-product-penawar p{
+ margin-left: 88%;
+ margin-top: -10px;
+}
+.card2-seller-product-penawar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+.nama2-seller-product-penawar{
+    margin-left:70px;
+    font-size: 14px;
+	color: black;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+.card2-kota-seller-product-penawar{
+    margin-left:70px;
+    font-size: 10px;
+    color: #8A8A8A;
+}
+.shadow-seller-product-penawar{
+	border-bottom: 2px solid #E5E5E5	;
+}
+/* Daftar Produk yang di tawar */
+
+/* modal info penawar */
+/* .Modal-info-penawar-seller{
+
+} */
+/* modal info penawar */
+.container div .info2-seller-product-penawar{
+	display:none;
+}
+
+.container div .info3-seller-product-penawar{
+	display:none;
+}
+
+.box-seller-product-penawar {
+	width: 100px;
+	height: 35px;
+	background-color: #4B1979;
+	border: none;
+  }
+
+  .box1-seller-product-penawar {
+	width: 100px;
+	height: 100px;
+	margin-left: 40%;
+	background-color: #E2D4F0;
+	border: none;
+	border-radius: 12px;
+  }
+
+  /* infoProduct */
+  .box2-seller-product-penawar {
+	width: 100px;
+	height: 100px;
+	border-style:dashed;
+	background-color: #ffffff;
+	border-color: #D0D0D0;
+  }
+/* infoproducts */
+
+  .border1-seller-product-penawar{
+	border-radius: 500px;
+	border: none;
+  }
+
+  .myButton6-seller-product-penawar {
+	box-shadow:inset 0px 1px 0px 0px #7126B5;
+	background:linear-gradient(to bottom, #7126B5 5%, #7126B5 100%);
+	background-color:#7126B5;
+	border-radius:16px;
+	border:1px solid #7126B5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7126B5;
+	width: 49%;
+	margin-left: 10px;
+}
+
+.myButton6-seller-product-penawar:hover {
+	background:linear-gradient(to bottom, #7126B5 5%, #7126B5 100%);
+	background-color:#7126B5;
+}
+.myButton6-seller-product-penawar:active {
+	position:relative;
+	top:1px;
+}
+/*Lengkapi Detail Produk */
+.myButton7-seller-product-penawar {
+	border-radius:16px;
+	border:2px solid #7126B5;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 24px;
+	text-decoration:none;
+	background-color:#ffffff;
+	text-shadow:0px 1px 0px #7126B5;
+	width: 49%;
+	margin-left: 250px;
+}
+
+.myButton8-seller-product-penawar {
+	border-radius:16px;
+	border:2px solid #7126B5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 24px;
+	text-decoration:none;
+	background-color:#7126B5;
+	text-shadow:0px 1px 0px #7126B5;
+	width: 49%;
+}
+/*Lengkapi Detail Produk */
+.gambar-modal{
+	background: #EEEEEE;
+	color: #4B1979;
+	border-radius: 10px;
+	margin: 8px;
+	padding-bottom: 15px;
+
+}
+
+.card-main{
+	width: 40%;
+}
+    
+@media (max-width: 1023px) {
+
+	.card-main{
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	.card2-seller-product-penawar{
+		border-radius: 16px;
+		display: flex;
+		border: 1px ;
+		margin-right: 100px;
+	}
+	.card2-kota-seller-product-penawar p{
+	 margin-left: 88%;
+	 margin-top: -10px;
+	}
+	.card2-seller-product-penawar img{
+		
+		height: 50px;
+		border-radius: 12px;
+	}
+	.nama2-seller-product-penawar{
+		margin-left:70px;
+		font-size: 14px;
+		color: black;
+		margin-bottom: 5px;
+		line-height: 20px;
+	}
+	.card2-kota-seller-product-penawar{
+		margin-left:70px;
+		font-size: 10px;
+		color: #8A8A8A;
+	}
+	.shadow-seller-product-penawar{
+		border-bottom: 2px solid #E5E5E5	;
+	}
+
+	.nama-seller-product-penawar {
+		margin: 15px;
+		justify-content: left;
+	}
+	
+	.card-seller-product-penawar img{
+		
+		height: 50px;
+		border-radius: 12px;
+		margin-top: 10px;
+		justify-content: left;
+		
+	}
+	.nama-seller-product-penawar{
+		margin-left:70px;
+		font-size: 14px;
+		font-weight: bold;
+		justify-content: left;
+	}
+	.card-kota-seller-product-penawar{
+		margin-left:70px;
+		font-size: 10px;
+		color: #8A8A8A;
+		justify-content: left;
+		width: 100px !important;
+
+	}
+	/* Lengkapi Info akun */
+    .na1-seller-product-penawar {
+		display: none; 
+    }
+	.box1-seller-product-penawar{
+		margin-left: 25%;
+		margin-top: 20px;
+	}
+	.info-seller-product-penawar {
+		display: block;
+	}
+
+	.container div .info2-seller-product-penawar{
+		font-weight: bold;
+		padding-bottom: 5%;
+		transform: translate(10%, 8px);
+		display: block;
+	}
+	.arrow2-seller-product-penawar{
+		position: absolute;
+		margin-left: 0px;
+	}
+
+	.border1-seller-product-penawar{
+		margin-top: 15px;
+	}
+		
+	.container div .info3-seller-product-penawar{
+		font-weight: bold;
+		padding-bottom: 10%;
+		transform: translate(33%, 8px);
+		display: block;
+	}
+	/* Daftar Produkmu yang Ditawar */
+	.card2-kota-seller-product-penawar p{
+		margin-left: 60%;
+		margin-top: -14px;
+	   }
+
+	/* Daftar Produkmu yang Ditawar */
+
+	.myButton6-seller-product-penawar {
+		box-shadow:inset 0px 1px 0px 0px #7126B5;
+		background:linear-gradient(to bottom, #7126B5 5%, #7126B5 100%);
+		background-color:#7126B5;
+		border-radius:16px;
+		border:1px solid #7126B5;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #7126B5;
+		padding:8px 24px;
+		width: 49%;
+		margin-left:10px;
+		
+	}
+
+	.myButton7-seller-product-penawar{
+		border-radius:16px;
+		border:2px solid #7126B5;
+		display:inline-block;
+		cursor:pointer;
+		color:#000000;
+		font-family:Arial;
+		font-size:15px;
+		padding:8px 24px;
+		text-decoration:none;
+		background-color:#ffffff;
+		text-shadow:0px 1px 0px #7126B5;
+		width: 49%;
+		margin-left: 0px;
+	}
+}

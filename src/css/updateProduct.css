@@ -1,0 +1,175 @@
+/* navbar */
+.na1-update-product {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+
+.na2-update-product{
+	margin-left: 160px;
+}
+
+.nav-update-product{
+	margin-left: 160px;
+}
+
+.info-update-product-nav{
+	margin-left: 315px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Container Arrow*/
+.arrow2-update-product{
+	color: black;
+	font-size: 25px;
+	margin-left: -100px;
+}
+
+
+.container div .info2-update-product{
+	display:none;
+}
+
+.container div .info3-update-product{
+	display:none;
+}
+
+.box-update-product {
+	width: 100px;
+	height: 35px;
+	background-color: #4B1979;
+	border: none;
+  }
+
+  .box1-update-product {
+	width: 100px;
+	height: 100px;
+	margin-left: 40%;
+	background-color: #E2D4F0;
+	border: none;
+	border-radius: 12px;
+  }
+
+  /* infoProduct */
+  .box2-update-product {
+	width: 100px;
+	height: 100px;
+	border-style:dashed;
+	background-color: #ffffff;
+	border-color: #D0D0D0;
+  }
+/* infoproducts */
+
+
+
+  .border1-update-product{
+	border-radius: 500px;
+	border: none;
+  }
+
+  .myButton6-update-product {
+	box-shadow:inset 0px 1px 0px 0px #7126B5;
+	background:linear-gradient(to bottom, #7126B5 5%, #7126B5 100%);
+	background-color:#7126B5;
+	border-radius:16px;
+	border:1px solid #7126B5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7126B5;
+	width: 49%;
+}
+
+.myButton6-update-product:hover {
+	background:linear-gradient(to bottom, #7126B5 5%, #7126B5 100%);
+	background-color:#7126B5;
+}
+.myButton6-update-product:active {
+	position:relative;
+	top:1px;
+}
+/*Lengkapi Detail Produk */
+.myButton7-update-product {
+	border-radius:16px;
+	border:2px solid #7126B5;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 24px;
+	text-decoration:none;
+	background-color:#ffffff;
+	text-shadow:0px 1px 0px #7126B5;
+	width: 49%;
+}
+/*Lengkapi Detail Produk */
+    
+@media (max-width: 1023px) {
+	/* Lengkapi Info akun */
+    .na1-update-product {
+		display: none; 
+    }
+	.box1-update-product{
+		margin-left: 25%;
+		margin-top: 20px;
+	}
+	.info-update-product {
+		display: block;
+	}
+
+	.container div .info2-update-product{
+		font-weight: bold;
+		padding-bottom: 5%;
+		transform: translate(10%, 8px);
+		display: block;
+	}
+	.arrow2-update-product{
+		position: absolute;
+	}
+
+	.border1-update-product{
+		margin-top: 15px;
+	}
+		
+	.container div .info3-update-product{
+		font-weight: bold;
+		padding-bottom: 5%;
+		transform: translate(25%, 8px);
+		display: block;
+	}
+
+	.myButton6-update-product {
+		box-shadow:inset 0px 1px 0px 0px #7126B5;
+		background:linear-gradient(to bottom, #7126B5 5%, #7126B5 100%);
+		background-color:#7126B5;
+		border-radius:16px;
+		border:1px solid #7126B5;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #7126B5;
+		width: 49%;
+	}
+
+	.myButton7-update-product {
+		border-radius:16px;
+		border:2px solid #7126B5;
+		display:inline-block;
+		cursor:pointer;
+		color:#000000;
+		font-family:Arial;
+		font-size:15px;
+		padding:12px 24px;
+		text-decoration:none;
+		background-color:#ffffff;
+		text-shadow:0px 1px 0px #7126B5;
+		width: 49%;
+	}
+}

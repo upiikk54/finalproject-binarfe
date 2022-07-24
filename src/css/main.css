@@ -1,0 +1,387 @@
+/********************
+ * Register
+ ********************/
+.row {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.register-left img {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 115%;
+}
+
+.register-right {
+    margin: 10%;
+    margin-top: 12%;
+}
+
+/* .register-right {
+  margin-top: 100px;
+  margin-left: 180px;
+} */
+
+.register-right h3 {
+    font-weight: bold;
+}
+
+.register-right button {
+    background-color: #7126B5;
+    border-color: #7126B5;
+    margin-top: 16px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .register-left {
+      display: none; 
+    }
+    .register-right {
+        margin: 110px 30px 0 50px;
+    }
+    .register-right p {
+        padding-top: 90px;
+    }
+}
+
+/********************
+ * Navbar
+ ********************/
+.logo {
+  width: 100px;
+  height: 34px;
+  background-color: #4B1979;
+  margin-left: 5%;
+}
+
+.navbar1 {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 7px;
+  color: #8A8A8A;
+}
+
+.button-register {
+  background: #7126B5;
+  border-color: #7126B5;
+  border-radius: 12px;
+}
+
+.icon-register {
+  margin: 8px 10px 8px 0;
+}
+
+.icon-list-header, .icon-bell-header, .icon-user-header {
+  margin: 5px;
+  font-size: large;
+}
+
+.home-navbar-user{
+  background-color: white;
+  border-color: white;
+}
+
+.icon-list-header, .icon-user-header {
+  color: black;
+}
+
+.home-navbar-user:hover {
+  background-color: #E2D4F0;
+  border-color: #E2D4F0;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+#off-canvas {
+  width: 50%;
+}
+
+.title-navbar-mobile {
+  font-weight: bold;
+}
+
+.notif-accesoris {
+  font-size: 14px;
+  opacity: 0.5;
+};
+
+
+@media screen and (max-width: 1023px) {
+  .logo {
+      display: none;
+  }
+  
+  .navbar1 {
+      box-shadow: none;
+      position: fixed;
+      z-index: 10;
+      width: 100%;
+  }
+
+  .home-navbar-user, .icon-bell-header, .home-navbar-user {
+      display: none;
+  }
+
+  .navbar-light .navbar-toggler {
+      background-color: white;
+      border-radius: 10px;
+      border-color: white;
+  }
+
+
+  .navbar-scroll {
+    background-color: white;
+  }
+}
+
+
+/********************
+ * Home-carousel
+ ********************/
+.slider .owl-theme .owl-nav { 
+  display: none; 
+} 
+
+.slider { 
+  position: relative; 
+  transition: all 0.5 ease; 
+} 
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.5);
+} 
+
+.slider .slider-card { 
+  margin: 50px 70px 50px 70px; 
+  border: 1px solid transparent; 
+} 
+
+.slider .slider-card .card { 
+  border: 1px solid transparent; 
+} 
+
+.slider .owl-theme .owl-dots { 
+  display: none; 
+} 
+
+.home-carousel-1 {
+width: 450px;
+height: 135px;
+border-radius: 10px;
+background-color: #FFE9CA;
+}
+
+.home-carousel-2 {
+width: 450px;
+height: 135px;
+border-radius: 10px;
+background-color: #E2D4F0;
+}
+
+.home-carousel-3 {
+width: 450px;
+height: 135px;
+border-radius: 10px;
+background-color: #B6D4A8;
+}
+
+.text-1 {
+font-weight: bold;
+z-index: 999;
+position: relative;
+margin: 25px 0 0 70px;
+}
+
+.text-2 {
+margin: 5px 0 0 70px;
+font-size: 10px;
+}
+
+.text-3 {
+margin: 0px 0 0 70px;
+color: red;
+}
+
+.carousel-1 img{
+max-width: 150px;
+max-height: 150px;
+z-index: 999;
+position: relative;
+margin: 40px 0 0 50px;
+}
+
+.carousel-2 img{
+height: 134px;
+max-width: 205px;
+position: absolute;
+z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+.slider .owl-item.active.center {
+  transform: none;
+  z-index: -1 !important;
+} 
+
+.home-carousel-1, .home-carousel-2, .home-carousel-3 {
+  height: 340px;
+  max-width: 100%;
+  border-radius: 0;
+}
+
+.carousel-2 img {
+  display: none !important;
+}
+
+.carousel-1 img {
+  margin-top: 100%;
+  margin-left: 0 !important;
+  max-width: 60%;
+}
+
+.text-1, .text-2, .text-3 {
+  margin-left: 35%;
+  margin-right: 0 !important;
+}
+
+.text-1 {
+  margin-top: 45%;
+  font-size: 20px;
+}
+
+.text-2 {
+  font-size: 12px;
+  margin-top: 5%;
+}
+
+.text-3 {
+  font-size: 20px;
+}
+
+.slider-card {
+  margin:0 !important;
+  z-index: -1;
+  position: relative;
+}
+}
+
+  /********************
+ * Home-category
+ ********************/
+.category div button.button-sell { 
+  width: 25%; 
+  margin: 0 37.5%; 
+} 
+
+.category .button-category { 
+  overflow-x: scroll; 
+} 
+
+.category .button-category::-webkit-scrollbar { 
+  width: 0; 
+}
+
+@media screen and (max-width: 1023px) {
+  .category {
+    margin-top: 10%;
+  }
+
+  .card-content { 
+    display: grid; 
+    grid-template-columns: auto auto; 
+    grid-gap: 20px;
+  }
+}
+
+
+/********************
+ * Home-card
+ ********************/
+@media screen and (min-width: 1024px) {
+    .category div button { 
+        border: 1px solid rgba(226, 212, 240, 1); 
+        border-radius: 12px; 
+        background-color: rgba(226, 212, 240, 1); 
+        color: black; 
+    }
+
+    .card-content { 
+      display: grid; 
+      grid-template-columns: auto auto auto auto auto auto; 
+      grid-gap: 20px;
+    }
+    
+    .category div button.button-sell { 
+        width: 7%; 
+        border: 1px solid rgba(113, 38, 181, 1); 
+        border-radius: 12px; 
+        background-color: rgba(113, 38, 181, 1); 
+        color: white; 
+        margin: 0 46.5%; 
+        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.55); 
+    } 
+
+    .category div button:hover { 
+        border: 1px solid rgba(113, 38, 181, 1); 
+        border-radius: 12px; 
+        background-color: rgba(113, 38, 181, 1); 
+        color: white; 
+    } 
+
+    .category div button:focus { 
+        border: 1px solid rgba(113, 38, 181, 1); 
+        border-radius: 12px; 
+        background-color: rgba(113, 38, 181, 1); 
+        color: white; 
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .category div button { 
+        border: 1px solid rgba(226, 212, 240, 1); 
+        border-radius: 12px; 
+        background-color: rgba(226, 212, 240, 1); 
+        color: black; 
+    } 
+
+    .category div button.button-sell { 
+        width: 20%; 
+        border: 1px solid rgba(113, 38, 181, 1); 
+        border-radius: 12px; 
+        background-color: rgba(113, 38, 181, 1); 
+        color: white; 
+        margin: 0 39%; 
+        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.55); 
+    } 
+
+    .category div button:hover { 
+        border: 1px solid rgba(113, 38, 181, 1); 
+        border-radius: 12px; 
+        background-color: rgba(113, 38, 181, 1); 
+        color: white; 
+    } 
+
+    .category div button:focus { 
+        border: 1px solid rgba(113, 38, 181, 1); 
+        border-radius: 12px; 
+        background-color: rgba(113, 38, 181, 1); 
+        color: white; 
+    }
+}
+
+
+
+
+
+ 
+

@@ -1,1 +1,1 @@
-# finalproject-binarfe
+# finalProject-binarFE
